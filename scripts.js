@@ -1,11 +1,3 @@
-
-/////----------TO-DO:
-/////   Change getdocumentbyid. We're using jquery.
-/////   Change behaviour of hitting return on the google maps search.
-/////   Customise the manual search box (remove outline).
-/////   Use $AJAX instead of vanilla JS
-
-
 var response = document.getElementById("response");
 var city = document.getElementById("city");
 var cloudCoverage = document.getElementById("cloudCoverage");
