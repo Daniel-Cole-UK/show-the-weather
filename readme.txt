@@ -14,9 +14,9 @@ Additional Functionality:
 
 - I created a function to take the wind bearing degree and translate this into a more user-friendly traditional compass abbreviation (e.g. "North (N)") 
 
-- I added a manual location lookup picklist using the Google Maps API. This allows the user to search for and select any worldwide location without allowing location services to identify their device location. 
+- I added a manual location lookup picklist using the Google Maps API. This allows the user to search for and select any worldwide location without allowing location services to identify their device location. Once a manual location is selected, the OpenWeather API is called using the geo coordinates provided by Google Maps.
 
-Once a manual location is selected, the OpenWeather API is called using the geo coordinates provided by Google Maps.
+- Due to Chrome preventing geolocation requests without HTTPS, I added an additional fallback function to get the user's geocoordinates via their IP address.
 
 Created Using:
 
